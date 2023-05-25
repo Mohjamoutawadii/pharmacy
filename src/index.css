@@ -1,0 +1,96 @@
+.leaflet-container {
+  height: 500px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #439c50;
+  /* Set a darker background color */
+  color: #fff;
+  /* Set the text color to white */
+  padding: 50px 0;
+  /* Add some vertical padding */
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  /* Increase the font size of the headings */
+  margin-bottom: 20px;
+  /* Add some space below the headings */
+}
+
+footer p {
+  font-size: 1.1rem;
+  /* Increase the font size of the paragraphs */
+  margin-bottom: 10px;
+  /* Add some space below the paragraphs */
+}
+
+footer ul {
+  margin: 0;
+  /* Remove the default margin from the unordered list */
+  padding: 0;
+  /* Remove the default padding from the unordered list */
+  list-style: none;
+  /* Remove the default bullet points from the unordered list */
+}
+
+footer li {
+  display: inline-block;
+  /* Display the list items horizontally */
+  margin-right: 20px;
+  /* Add some space between the list items */
+}
+
+footer a {
+  color: #fff;
+  /* Set the link color to white */
+}
+
+footer a:hover {
+  color: #050404;
+  /* Change the link color on hover */
+}
+
+
+h1 {
+  padding-bottom: 50px;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: green;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+
+.navbar {
+  margin-bottom: 50px;
+  background-color: #439c50;
+  /* set background color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* add a subtle shadow */
+
+}
+
+@media (max-width: 900px) {
+  .Table {
+    font-size: 0.6rem;
+    padding: 0.3rem;
+  }
+
+
+
+
+
+}
