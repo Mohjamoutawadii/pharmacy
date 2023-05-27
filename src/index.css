@@ -48,9 +48,11 @@ h1 {
   0% {
     color: red;
   }
+
   50% {
     color: green;
   }
+
   100% {
     color: red;
   }
@@ -68,11 +70,11 @@ h1 {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .navbar-brand {
     font-size: 1.2rem;
   }
-  
+
   .list_item {
     font-size: 0.9rem;
   }
@@ -87,56 +89,61 @@ h1 {
     font-size: 1.5rem;
     padding-bottom: 30px;
   }
-  
+
   form {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   label {
     font-size: 0.9rem;
     margin-right: 10px;
   }
-  
+
   select,
   input[type="date"] {
     font-size: 0.9rem;
     width: 100%;
   }
-  
+
   button[type="submit"] {
     font-size: 0.9rem;
   }
-  
+
   .table {
     font-size: 0.9rem;
   }
-  
+
   .modal-body p {
     font-size: 0.9rem;
   }
-  
+
   .navbar {
     padding: 10px;
     margin-bottom: 30px;
+    width: auto
   }
-  
+
   footer h3,
   footer p {
     font-size: 1rem;
   }
-  
+
   footer ul {
     text-align: center;
     margin-bottom: 20px;
   }
-  
+
   footer li {
     margin-right: 10px;
   }
-  
+
   footer a {
     font-size: 1.2rem;
+  }
+
+  .foooter {
+    width: auto
   }
 }
